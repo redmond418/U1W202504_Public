@@ -1,0 +1,450 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5087687894519199434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5652595814995371014}
+  - component: {fileID: 8459037997873269565}
+  m_Layer: 0
+  m_Name: Wave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5652595814995371014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5087687894519199434}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 20, y: 10, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2109191884340508462}
+  m_Father: {fileID: 689852007964560378}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &8459037997873269565
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5087687894519199434}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2f8da7e65eb534fc28c12c717dbda848, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 50
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &7063619839673308163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2109191884340508462}
+  - component: {fileID: 6862107987738008627}
+  m_Layer: 0
+  m_Name: Animation Up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2109191884340508462
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063619839673308163}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5652595814995371014}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6862107987738008627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7063619839673308163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cc6819e64e4c44beb63ea2ef45e1a6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playOnAwake: 1
+  animationMode: 0
+  components:
+  - rid: 2875088313963511895
+  - rid: 2875088313963511898
+  - rid: 2875088313963511896
+  - rid: 2875088313963511897
+  references:
+    version: 2
+    RefIds:
+    - rid: 2875088313963511895
+      type: {class: MaterialFloatAnimation, ns: LitMotion.Animation.Components, asm: LitMotion.Animation}
+      data:
+        displayName: Property (Float)
+        enabled: 1
+        target: {fileID: 2100000, guid: 2f8da7e65eb534fc28c12c717dbda848, type: 2}
+        settings:
+          startValue: 0
+          endValue: 4
+          duration: 1
+          ease: 11
+          customEaseCurve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          delay: 0
+          delayType: 0
+          loops: 1
+          loopType: 0
+          cancelOnError: 0
+          skipValuesDuringDelay: 0
+          immediateBind: 0
+          schedulerType: 0
+          additionalSettings: 0
+        relative: 0
+        propertyName: _CenterHeight
+    - rid: 2875088313963511896
+      type: {class: MaterialFloatAnimation, ns: LitMotion.Animation.Components, asm: LitMotion.Animation}
+      data:
+        displayName: Property (Float)
+        enabled: 1
+        target: {fileID: 2100000, guid: 2f8da7e65eb534fc28c12c717dbda848, type: 2}
+        settings:
+          startValue: -5.79
+          endValue: 6
+          duration: 2
+          ease: 13
+          customEaseCurve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          delay: 0
+          delayType: 0
+          loops: 1
+          loopType: 0
+          cancelOnError: 0
+          skipValuesDuringDelay: 0
+          immediateBind: 0
+          schedulerType: 0
+          additionalSettings: 0
+        relative: 0
+        propertyName: _Height
+    - rid: 2875088313963511897
+      type: {class: MaterialFloatAnimation, ns: LitMotion.Animation.Components, asm: LitMotion.Animation}
+      data:
+        displayName: Property (Float)
+        enabled: 1
+        target: {fileID: 2100000, guid: 2f8da7e65eb534fc28c12c717dbda848, type: 2}
+        settings:
+          startValue: 0.17
+          endValue: 0
+          duration: 2
+          ease: 3
+          customEaseCurve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          delay: 0
+          delayType: 0
+          loops: 1
+          loopType: 0
+          cancelOnError: 0
+          skipValuesDuringDelay: 0
+          immediateBind: 0
+          schedulerType: 0
+          additionalSettings: 0
+        relative: 0
+        propertyName: _CenterRadius
+    - rid: 2875088313963511898
+      type: {class: MaterialFloatAnimation, ns: LitMotion.Animation.Components, asm: LitMotion.Animation}
+      data:
+        displayName: Property (Float)
+        enabled: 1
+        target: {fileID: 2100000, guid: 2f8da7e65eb534fc28c12c717dbda848, type: 2}
+        settings:
+          startValue: 4
+          endValue: 3
+          duration: 1
+          ease: 9
+          customEaseCurve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          delay: 1
+          delayType: 0
+          loops: 1
+          loopType: 0
+          cancelOnError: 0
+          skipValuesDuringDelay: 1
+          immediateBind: 0
+          schedulerType: 0
+          additionalSettings: 0
+        relative: 0
+        propertyName: _CenterHeight
+--- !u!1001 &3196014349728857468
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2722530020981667462, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2722530020981667462, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2722530020981667462, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2722530020981667462, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2722530020981667462, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2722530020981667462, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2722530020981667462, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2722530020981667462, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2722530020981667462, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2722530020981667462, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4389588647163048588, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: word
+      value: 
+      objectReference: {fileID: 11400000, guid: 3cb79bb0b146b4b898247e8d879b1402, type: 2}
+    - target: {fileID: 5549013180041237048, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: focusable
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6578282233114595400, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e73c10e03ee2b4c989d935943267acca, type: 3}
+    - target: {fileID: 6872056384633635864, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: m_Name
+      value: leviathan
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872056384633635864, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8729084228125226410, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      propertyPath: word
+      value: 
+      objectReference: {fileID: 11400000, guid: 3cb79bb0b146b4b898247e8d879b1402, type: 2}
+    m_RemovedComponents:
+    - {fileID: 8646268554607999439, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+    - {fileID: 5549013180041237048, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2722530020981667462, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5652595814995371014}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6872056384633635864, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8305195976478706033}
+  m_SourcePrefab: {fileID: 100100000, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+--- !u!4 &689852007964560378 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2722530020981667462, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+  m_PrefabInstance: {fileID: 3196014349728857468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8288018325882583396 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6872056384633635864, guid: 9aeac598a56134a62bd4a3789a3af4b3, type: 3}
+  m_PrefabInstance: {fileID: 3196014349728857468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8305195976478706033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8288018325882583396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77ef753fa3e3b440e8a5631c48dc20e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conditionBehaviorPairsSequence:
+    uncontrollable: 1
+    delay: 2
+    pairs: []
+    defaultBehavior:
+      rid: 2875088235916165737
+  references:
+    version: 2
+    RefIds:
+    - rid: 2875088235916165737
+      type: {class: SceneLoadElementBehavior, ns: U1W, asm: Assembly-CSharp}
+      data:
+        scene:
+          sceneAsset: {fileID: 102900000, guid: d90d0bc0dd99849b0a56e5e4a0fa8975, type: 3}
+          _assetPath: Assets/Scenes/EndScene_Error_Monster.unity

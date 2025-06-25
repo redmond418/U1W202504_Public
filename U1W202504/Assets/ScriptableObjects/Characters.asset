@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b5bdfa2b2704a40aaed094f6a83a08, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: 
+  pairs:
+  - a: "\u3042"
+    i: "\u3044"
+  - a: "\u304B"
+    i: "\u304D"
+  - a: "\u304C"
+    i: "\u304E"
+  - a: "\u3055"
+    i: "\u3057"
+  - a: "\u3056"
+    i: "\u3058"
+  - a: "\u305F"
+    i: "\u3061"
+  - a: "\u3060"
+    i: "\u3062"
+  - a: "\u306A"
+    i: "\u306B"
+  - a: "\u306F"
+    i: "\u3072"
+  - a: "\u3070"
+    i: "\u3073"
+  - a: "\u3071"
+    i: "\u3074"
+  - a: "\u307E"
+    i: "\u307F"
+  - a: "\u3084"
+    i: "\u3044"
+  - a: "\u3089"
+    i: "\u308A"
+  - a: "\u308F"
+    i: "\u3044"
